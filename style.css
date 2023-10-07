@@ -32,3 +32,55 @@ body{
 .lock-icon{
     width:15% ;
 }
+/* banner */
+.vila-img{
+    width: 75%;
+    position: relative;
+    left: 285px;
+    top: 30px;
+
+}
+.banner-box{
+    background-color:rgba(122, 11, 17, 0.78); 
+    padding: 0px 20px 25px 20px; 
+    width: 30%;
+}
+.banner-text{
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    
+}
+
+.headline-text{
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.banner-box-items{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.banner-logo{
+    width: 8px;
+}
+.banner{
+    position: relative;
+
+}
+.banner-box{
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+}
