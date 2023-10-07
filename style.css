@@ -84,3 +84,58 @@ body{
     bottom: 80px;
     left: 100px;
 }
+
+/* about */
+.line{
+    display: flex;
+}
+
+.border{
+    text-align:center ;
+    padding: 10px 15px;
+    width:15%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color:white;
+    box-shadow: -12px 11px 91px -30px rgba(0,0,0,0.75);
+-webkit-box-shadow: -12px 11px 91px -30px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 11px 91px -30px rgba(0,0,0,0.75);
+
+}
+.about-header{
+    margin: 0;
+    font-size: 12px;
+}
+
+.about-text{
+    margin-top: 0;
+    font-size:12px ;
+
+}
+
+.about-section{
+    display: flex;
+    gap: 110px;
+}
+.left-side{
+    width: 50%;
+    position: relative;
+    left:350px;
+}
+.right-side{
+    width: 50%;
+}
+.right-side-text{
+    width: 80%;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.right-side-headline{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.active{
+    color:rgb(114, 29, 33);
+    
+}
